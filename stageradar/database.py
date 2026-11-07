@@ -12,6 +12,7 @@ from .config import DB_PATH, STATUTS, XLSX_PATH
 
 
 def _db():
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     con = sqlite3.connect(DB_PATH)
     con.row_factory = sqlite3.Row
     return closing(con)
