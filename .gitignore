@@ -29,7 +29,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude Code internal files
+# Cache
 HOME/
 
 # Presentations
