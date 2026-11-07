@@ -109,8 +109,8 @@ scripts/
 
 ## Déploiement
 
-La plateforme est déployée sur **Streamlit Community Cloud** :  
-👉 [Lien de l'application](https://ntic-radar-marrakech.streamlit.app)
+La plateforme est déployée sur **Railway (Docker)** :  
+👉 [https://ntic-radar-marrakech-production.up.railway.app](https://ntic-radar-marrakech-production.up.railway.app)
 
 ---
 
