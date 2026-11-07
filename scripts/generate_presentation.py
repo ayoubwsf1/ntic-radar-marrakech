@@ -82,7 +82,7 @@ def main():
     p_sub.space_before = Pt(12)
 
     p_author = tf.add_paragraph()
-    p_author.text = "Présenté par : Ayoub Aamire — Filière Développement Digital (OFPPT)"
+    p_author.text = "Présenté par : Ayoub Aamire — AI201"
     p_author.font.size = Pt(16)
     p_author.font.color.rgb = RGBColor(147, 197, 253)
     p_author.space_before = Pt(30)
@@ -440,7 +440,7 @@ def main():
             pb.font.color.rgb = COLOR_TEXT_DARK
             pb.space_before = Pt(3)
 
-    out_file = BASE_DIR / "GROUPE_AAMIRE_AYOUB_VF.pptx"
+    out_file = BASE_DIR / "AI201_AAMIRE_AYOUB_VF.pptx"
     prs.save(str(out_file))
     print(f"Presentation saved successfully to: {out_file}")
 

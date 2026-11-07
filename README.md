@@ -116,4 +116,4 @@ La plateforme est déployée sur **Railway (Docker)** :
 
 ## Auteur
 
-**Ayoub Aamire** — Technicien Spécialisé Développement Digital, OFPPT Marrakech
+**Ayoub Aamire** — AI201
