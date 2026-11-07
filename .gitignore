@@ -1,0 +1,33 @@
+# Secrets et base de données locale
+.env
+stages.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data brute et nettoyée (trop lourde pour GitHub)
+data/raw/
+data/cleaned/
+
+# Figures générées
+docs/figures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code internal files
+HOME/
