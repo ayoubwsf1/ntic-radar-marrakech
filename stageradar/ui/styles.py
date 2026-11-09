@@ -1,4 +1,5 @@
-
+"""Les styles CSS de l'interface : les couleurs, les cartes, les barres."""
+# CSS = le code pour les couleurs et la mise en forme de la page
 CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');

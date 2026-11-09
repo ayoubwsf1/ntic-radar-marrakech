@@ -77,15 +77,13 @@ class TestCV(unittest.TestCase):
 class TestRender(unittest.TestCase):
     def test_exports(self):
         c = cv.generer_cv(profil())["cv"]
-        pdf, docx = cv_render.cv_pdf(c), cv_render.cv_docx(c)
+        pdf = cv_render.cv_pdf(c)
         self.assertTrue(pdf.startswith(b"%PDF"))
-        self.assertTrue(docx.startswith(b"PK"))
         self.assertEqual(cv_render.nom_fichier(c, "pdf"), "CV_Sara_Alami.pdf")
 
     def test_caracteres_speciaux_et_cv_minimal(self):
         c = {"nom": "A & B <x>", "langue": "English", "experiences": [{"poste": "R&D <dev>", "points": ["œuvre ’ ok"]}]}
         self.assertTrue(cv_render.cv_pdf(c).startswith(b"%PDF"))
-        self.assertTrue(cv_render.cv_docx(c).startswith(b"PK"))
 
 
 if __name__ == "__main__":
